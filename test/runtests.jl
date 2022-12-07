@@ -1,6 +1,9 @@
 using Screenshots
 using Test
+using FileIO, Colors, FixedPointNumbers
 
 @testset "Screenshots.jl" begin
-    # Write your tests here.
+    file = screenshot()
+    @test endswith(file, ".png")
+    @test load(file) isa Matrix{RGBA{N0f8}}
 end
