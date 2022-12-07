@@ -17,7 +17,7 @@ function screenshot end
 
 if Sys.isapple()
     include("apple.jl")
-elseif Sys.isWindows()
+elseif Sys.iswindows()
     include("windows.jl")
 elseif Sys.islinux()
     include("linux.jl")
