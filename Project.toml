@@ -1,0 +1,13 @@
+name = "Screenshots"
+uuid = "1e4f4ae9-b882-4467-a09e-1fde90e27c49"
+authors = ["Lilith Hafner <Lilith.Hafner@gmail.com> and contributors"]
+version = "0.0.0"
+
+[compat]
+julia = "1"
+
+[extras]
+Test = "8dfed614-e22c-5e08-85e1-65c5234f0b40"
+
+[targets]
+test = ["Test"]
